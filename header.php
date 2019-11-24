@@ -55,6 +55,22 @@
 					<?php endif; ?>
 				</div>
 
+				<div class="header_center">
+					<?php if ( has_nav_menu( 'menu-1' ) ) : ?>
+						<nav id="site-navigation" class="main-navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'twentynineteen' ); ?>">
+							<?php
+							wp_nav_menu(
+								array(
+									'theme_location' => 'menu-1',
+									'menu_class'     => 'main-menu',
+									'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+								)
+							);
+							?>
+						</nav><!-- #site-navigation -->
+					<?php endif; ?>
+				</div>
+
 				<div class="header_right">
 					<?php if ( has_nav_menu( 'social' ) ) : ?>
 						<nav class="social-navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'aitoa' ); ?>">
@@ -74,7 +90,7 @@
 					<a class="home_icon" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/home_icon.png" alt=""></a>
 				</div>
 
-				<div class="clear"></div>
+				<!--<div class="clear"></div>-->
 
 			</div>
 

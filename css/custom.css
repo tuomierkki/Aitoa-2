@@ -184,11 +184,20 @@ ul {
 
 .header_main {
 	width: 100%;
-	max-width: 700px;
+	/*max-width: 700px;*/
 	min-width: 450px;
 	background: #fff;
 	padding-left: 70px;
 	height: 100%;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+-webkit-box-align:center;
+-ms-flex-align:center;
+    align-items:center;
+-webkit-box-pack:justify;
+-ms-flex-pack:justify;
+    justify-content:space-between;
 }
 
 .header_left {
@@ -295,7 +304,7 @@ ul {
 
 #site-navigation {
 	margin: 0px;
-	position: absolute;
+	/*position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -304,24 +313,25 @@ ul {
 	z-index: 1000;
 	padding-left: 70px;
 	width: 100%;
-	background: #314eed;
+	background: #314eed;*/
 }
-
+/*
 #menu-main-menu li {
 	padding-right: 30px;
-}
+}*/
 
 #menu-main-menu li a {
 	outline: none;
 	font-family: "Lato Medium";
-	color: #fff;
+	/*color: #fff;*/
 	font-weight: 500;
 	margin: 0;
-	padding: 0;
+	/*padding: 0;*/
+	padding: 0.5rem 1rem;
 	text-decoration: none;
 	transition: all 0.3s ease-in-out;
-	padding-bottom: 3px;
-	border-radius: 3px;
+	/*padding-bottom: 3px;
+	border-radius: 3px;*/
 }
 
 #menu-main-menu li a:hover {
@@ -334,8 +344,10 @@ ul {
 }
 
 .sidebar_main {
-	padding-top: 115px;
-	padding-bottom: 80px;
+	/*padding-top: 115px;
+	padding-bottom: 80px;*/
+	padding-top:4rem;
+	padding-bottom:4rem;
 }
 
 .sidebar_title {
@@ -521,9 +533,10 @@ ul {
 }
 
 .main_content_inner {
-	padding-right: 70px;
+	/*padding-right: 70px;
 	padding-left: 20px;
-	padding-bottom: 36px;
+	padding-bottom: 36px;*/
+	padding: 2rem 1rem;
 	position: relative;
 }
 
@@ -1008,12 +1021,20 @@ ul {
 
 .top_info {
 	position: absolute;
-	right: 91px;
+	top:1rem;
+	right:1rem;
+	/*right: 91px;
 	top: 27px;
 	max-width: 90px;
-	height: 81px;
+	height: 81px;*/
+	padding:1rem;
+	background:#314eed;
+	border-radius:4rem;
+	height:8rem;
+	width:8rem;
 	display: flex;
-	flex-wrap: wrap;
+	/*flex-wrap: wrap;*/
+	justify-content: center;;
 	align-items: center;
 }
 
@@ -1046,8 +1067,8 @@ ul {
 #page_content {
 	margin-right: -70px;
     padding-right: 70px;
-    background: url('../imgs/service_back.png') no-repeat right top;
-    background-position-x: calc(100% + 40px);
+    /*background: url('../imgs/service_back.png') no-repeat right top;
+    background-position-x: calc(100% + 40px);*/
     min-height: 250px;
     color: #000;
     padding-bottom: 80px;
@@ -1947,11 +1968,11 @@ ul {
 	padding-left: 30px;
 	padding-right: 0;
 }
-
+/*
 .main_content_inner {
 	padding-right: 30px;
 }
-
+*/
 #monessa_main {
 	padding-left: 10px;
 }
@@ -1960,10 +1981,10 @@ ul {
 	font-size: 18px;
 	line-height: 25px;
 }
-
+/*
 .top_info {
 	right: 52px;
-}
+}*/
 
 #page_content {
 	margin-right: -30px;
@@ -1988,11 +2009,11 @@ ul {
 #page_content {
 	background-position-x: calc(100% + 100px);
 }
-
+/*
 .top_info {
 	right: 30px;
 }
-
+*/
 .member_each {
 	width: 33.33%;
 }
@@ -2095,25 +2116,25 @@ ul {
 
 .header_main {
 	padding-left: 30px;
-	max-width: 500px;
+	/*max-width: 500px;*/
 }
 
 .header_right {
 	padding-right: 15px;
 }
-
+/*
 #site-navigation {
 	padding-left: 30px;
-}
-
+}*/
+/*
 #menu-main-menu li {
 	padding-right: 20px;
-}
-
+}*/
+/*
 #menu-main-menu li a {
 	font-size: 14px;
 }
-
+*/
 .sidebar_title {
 	margin-bottom: 50px;
 	font-size: 32px;
